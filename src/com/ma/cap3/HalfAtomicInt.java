@@ -9,7 +9,7 @@ public class HalfAtomicInt {
 	public int increamentAndGet() {
 		while (true) {
 			int i = integer.get();
-			if (integer.compareAndSet(i, i++)) {
+			if (integer.compareAndSet(i, ++i)) {
 				break;
 			}
 		}
