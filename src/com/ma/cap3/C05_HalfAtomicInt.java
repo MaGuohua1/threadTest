@@ -2,7 +2,7 @@ package com.ma.cap3;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class HalfAtomicInt {
+public class C05_HalfAtomicInt {
 
 	private AtomicInteger integer = new AtomicInteger();
 	
